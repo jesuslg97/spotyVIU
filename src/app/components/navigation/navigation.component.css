@@ -22,3 +22,7 @@ nav.menu_principal ul > li > a {
   text-decoration: none;
   color: black;
 }
+
+.seleccionado {
+  background-color: orange;
+}

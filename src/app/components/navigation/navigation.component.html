@@ -1,6 +1,6 @@
 <nav class="menu_principal">
   <ul>
-    <li><a>Inicio</a></li>
+    <li [routerLinkActive]="['seleccionado']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Inicio</a></li>
     <li><a>Música</a></li>
     <li><a>Cine</a></li>
     <li><a>Libros</a></li>
