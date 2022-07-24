@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {routing} from "./app.routing";
+import { MusicComponent } from './components/music/music.component';
+import { VideogamesComponent } from './components/videogames/videogames.component';
+import { ProgramingComponent } from './components/programing/programing.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import {routing} from "./app.routing";
     InicioComponent,
     HeaderComponent,
     NavigationComponent,
-    FooterComponent
+    FooterComponent,
+    MusicComponent,
+    VideogamesComponent,
+    ProgramingComponent
   ],
   imports: [
     BrowserModule,

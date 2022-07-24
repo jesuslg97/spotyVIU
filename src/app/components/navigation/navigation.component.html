@@ -1,10 +1,8 @@
 <nav class="menu_principal">
   <ul>
     <li [routerLinkActive]="['seleccionado']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Inicio</a></li>
-    <li><a>Música</a></li>
-    <li><a>Cine</a></li>
-    <li><a>Libros</a></li>
-    <li><a>Podcasts</a></li>
-    <li><a>Videojuegos</a></li>
+    <li [routerLinkActive]="['seleccionado']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['musica']">Música</a></li>
+    <li [routerLinkActive]="['seleccionado']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['videojuegos']">Videojuegos</a></li>
+    <li [routerLinkActive]="['seleccionado']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['programacion']">Programación</a></li>
   </ul>
 </nav>
