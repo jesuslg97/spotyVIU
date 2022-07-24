@@ -1,1 +1,20 @@
-<p>music works!</p>
+<div>
+  <h1>SpotyViu</h1>
+  <p>Reproduciendo: {{playing}}</p>
+  <audio id="audioPlayer" controls></audio>
+</div>
+
+<h1>Discos disponibles:</h1>
+
+<div *ngIf="disks">
+  <article *ngFor="let disk of disks; let i=index">
+    <span>{{disk.title}}</span>
+    <span>{{disk.artist | uppercase}}</span>
+    <span>{{disk.year}}</span>
+    <div *ngFor="let mySong of disk.songs">
+      <app-song [song]="mySong" (songToPlay)="playSong(mySong)")></app-song>
+    </div>
+    <hr>
+  </article>
+
+</div>

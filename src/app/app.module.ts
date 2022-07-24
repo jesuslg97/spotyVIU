@@ -10,6 +10,7 @@ import {routing} from "./app.routing";
 import { MusicComponent } from './components/music/music.component';
 import { VideogamesComponent } from './components/videogames/videogames.component';
 import { ProgramingComponent } from './components/programing/programing.component';
+import { SongComponent } from './components/song/song.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProgramingComponent } from './components/programing/programing.componen
     FooterComponent,
     MusicComponent,
     VideogamesComponent,
-    ProgramingComponent
+    ProgramingComponent,
+    SongComponent
   ],
   imports: [
     BrowserModule,
