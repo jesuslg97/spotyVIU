@@ -15,7 +15,7 @@ export class MusicComponent implements OnInit {
 
   constructor() {
     this.disks= [
-      new Disk("Musica 1", "Cayo la noche", 2021,
+      new Disk("Musica 1", "Cayo la noche", 2021, "https://cdn.pixabay.com/user/2021/11/07/14-42-49-446_48x48.jpg",
         [
           new Song(1, "Cancion1", "quevedo", "https://cdn.pixabay.com/audio/2022/07/14/audio_b2e1adaa25.mp3")
         ]

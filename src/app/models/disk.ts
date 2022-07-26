@@ -6,6 +6,7 @@ export class Disk{
     public title: string,
     public artist: string,
     public year: number,
+    public image: string,
     public songs: Array<Song>
   ) {}
 

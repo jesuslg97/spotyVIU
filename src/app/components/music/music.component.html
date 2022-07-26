@@ -11,8 +11,9 @@
     <span>{{disk.title}}</span>
     <span>{{disk.artist | uppercase}}</span>
     <span>{{disk.year}}</span>
+    <img src={{disk.image}} alt={{disk.title}}>
     <div *ngFor="let mySong of disk.songs">
-      <app-song [song]="mySong" (songToPlay)="playSong(mySong)")></app-song>
+      <app-song [song]="mySong" (songToPlay)="playSong(mySong)"></app-song>
     </div>
     <hr>
   </article>
