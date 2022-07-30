@@ -11,6 +11,7 @@ import { MusicComponent } from './components/music/music.component';
 import { VideogamesComponent } from './components/videogames/videogames.component';
 import { ProgramingComponent } from './components/programing/programing.component';
 import { SongComponent } from './components/song/song.component';
+import { VideoComponent } from './components/video/video.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SongComponent } from './components/song/song.component';
     MusicComponent,
     VideogamesComponent,
     ProgramingComponent,
-    SongComponent
+    SongComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,

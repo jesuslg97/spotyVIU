@@ -1,1 +1,21 @@
-<p>programing works!</p>
+
+<div>
+    <h1>SpotyViu</h1>
+    <p>Reproduciendo: {{playing}}</p>
+    <video [width]="360" [height]="240" id="videoProgramingPlayer" controls></video>
+  </div>
+  
+  <h1>Programas disponibles:</h1>
+  
+  <div *ngIf="programacion">
+    <article *ngFor="let prog of programacion; let i=index">
+      <span>{{prog.title}}</span>
+      
+      <div *ngFor="let video of prog.video">
+        <app-video [video]="video" (videoToPlay)="playVideo(video)"></app-video>
+        
+      </div>
+      <hr>
+    </article>
+  
+  </div>

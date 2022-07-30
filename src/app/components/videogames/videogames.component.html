@@ -1,7 +1,21 @@
+
 <div>
-  <video [width]="360" [height]="240"
-         src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4"
-          controls preload="none" muted>
-    Vídeo no disponible
-  </video>
+  <h1>SpotyViu</h1>
+  <p>Reproduciendo: {{playing}}</p>
+  <video [width]="360" [height]="240" id="videoPlayer" controls></video>
+</div>
+
+<h1>Videojuegos disponibles:</h1>
+
+<div *ngIf="videojuegos">
+  <article *ngFor="let videojuego of videojuegos; let i=index">
+    <span>{{videojuego.categoria}}</span>
+    
+    <div *ngFor="let video of videojuego.video">
+      <app-video [video]="video" (videoToPlay)="playVideo(video)"></app-video>
+      
+    </div>
+    <hr>
+  </article>
+
 </div>
