@@ -19,7 +19,7 @@ export class VideogamesComponent implements OnInit {
     [
       new Videojuego('Nintendo',
         [
-          new Video('Pokemon Amarillo','Junichi Masuda','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
+          new Video('Pokemon Amarillo','Junichi Masuda','https://www.youtube.com/watch?v=Cu8heva-uBQ'),
           new Video('Super Mario Bros',' Shigeru Miyamoto','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
           new Video('The Legend of Zelda: Breath of the Wild','Eiji Aonuma','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4')
           

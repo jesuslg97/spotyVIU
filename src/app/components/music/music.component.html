@@ -8,9 +8,8 @@
 
 <div *ngIf="disks">
   <article *ngFor="let disk of disks; let i=index">
-    <span>{{disk.title}}</span>
-    <span>{{disk.artist | uppercase}}</span>
-    <span>{{disk.year}}</span>
+    <p>{{disk.title}} de {{disk.artist | uppercase}} - {{disk.year}}</p>
+
     <img src={{disk.image}} alt={{disk.title}}>
     <div *ngFor="let mySong of disk.songs">
       <app-song [song]="mySong" (songToPlay)="playSong(mySong)"></app-song>
