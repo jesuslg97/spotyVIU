@@ -25,3 +25,7 @@ header.titulo_principal h1{
   font-family: 'Orbitron', sans-serif;
   background-color: #e3e1ec;
 }
+
+img{
+  width: 5%;
+}
