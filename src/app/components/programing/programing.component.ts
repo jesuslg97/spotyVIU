@@ -17,25 +17,13 @@ export class ProgramingComponent implements OnInit {
     this.programacion = [
       new Programacion('Angular',
         [ 
-          new Video('Introduccion a Angular','Javi ','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
-          new Video('Desarollando una app en Angular','Gustavo','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
-          new Video('Conceptos avanzados de Angular','Adolfo','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
+          new Video('Introduccion a Angular','Javi ','https://cdn.pixabay.com/vimeo/268112389/Calle%20-%2015979.mp4?width=1280&expiry=1659292730&hash=ac0721c5a9ca227574797f72eb73d922cfd2dc5b'),
+          new Video('Desarollando una app en Angular','Gustavo','https://cdn.pixabay.com/vimeo/645084454/Industrial%20-%2095462.mp4?width=1280&expiry=1659292743&hash=f646052843a1685a9c3fe79164fc261c6e6e1d85'),
+        
         ]
-      ),
-        new Programacion('React',
-        [ 
-          new Video('Introduccion a React','Mario',''),
-          new Video('Introduccion a React. Parte 2','Mario',''),
-          new Video('Conceptos avanzados de React','Jose Maria',''),
-        ],
-      ),
-      new Programacion('Vue',
-        [ 
-          new Video('Introduccion a Vue','Sergio',''),
-          new Video('Desarollando una app en Vue','Gerard',''),
-          new Video('Desplegado una app con Vue','Manolo',''),
-        ],
       )
+
+      
     ];
 
     this.playing = "";

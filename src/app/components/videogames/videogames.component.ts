@@ -19,39 +19,19 @@ export class VideogamesComponent implements OnInit {
     [
       new Videojuego('Nintendo',
         [
-          new Video('Pokemon Amarillo','Junichi Masuda','https://www.youtube.com/watch?v=Cu8heva-uBQ'),
+          new Video('Pokemon Amarillo','Junichi Masuda','https://cdn.pixabay.com/vimeo/180289993/Pokemon%20-%204800.mp4?width=1280&expiry=1659292520&hash=5d93e7bd42e3220e720878bb5fe095bafe45175f'),
           new Video('Super Mario Bros',' Shigeru Miyamoto','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
-          new Video('The Legend of Zelda: Breath of the Wild','Eiji Aonuma','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4')
           
         ]
       ),
 
       new Videojuego('Activision',
         [
-          new Video('Call of Duty','Mohammad Alavi',''),
-          new Video('Crash Bandicoot','Jason Rubin',''),
-          new Video('Spyro ','Alex Hastings','')
+          new Video('Call of Duty','Mohammad Alavi','https://cdn.pixabay.com/vimeo/158039728/Suspenso%20-%202394.mp4?width=1270&expiry=1659292655&hash=a69224c6184a06fb8684f891e3a5a6845aeb19e3'),
+       
           
         ]  
-      ),
-
-      new Videojuego('Blizzard',
-        [
-          new Video('World of Warcraft','Jeffrey Kaplan',''),
-          new Video('Overwatch','Jeremy Craig',''),
-          new Video('Hearthstone',' Ben Brode','')
-          
-        ]  
-      ),
-
-      new Videojuego('Electronic Arts',
-        [
-          new Video('FIFA','Electronic Arts',''),
-          new Video('Los Sims','Will Wright',''),
-          new Video('Need for Speed: Carbon',' Andy Tudor','')
-          
-        ]  
-      ),
+      )
 
 
     ];
