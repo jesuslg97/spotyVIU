@@ -19,7 +19,7 @@ export class VideogamesComponent implements OnInit {
     [
       new Videojuego('Nintendo',
         [
-          new Video('Pokemon Amarillo','Junichi Masuda','https://cdn.pixabay.com/vimeo/180289993/Pokemon%20-%204800.mp4?width=1280&expiry=1659292520&hash=5d93e7bd42e3220e720878bb5fe095bafe45175f'),
+          new Video('Pokemon Amarillo','Junichi Masuda','../../assets/videos/pokemon.mp4'),
           new Video('Super Mario Bros',' Shigeru Miyamoto','http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4'),
           
         ]
@@ -27,7 +27,7 @@ export class VideogamesComponent implements OnInit {
 
       new Videojuego('Activision',
         [
-          new Video('Call of Duty','Mohammad Alavi','https://cdn.pixabay.com/vimeo/158039728/Suspenso%20-%202394.mp4?width=1270&expiry=1659292655&hash=a69224c6184a06fb8684f891e3a5a6845aeb19e3'),
+          new Video('Call of Duty','Mohammad Alavi','../../assets/videos/disparos.mp4'),
        
           
         ]  

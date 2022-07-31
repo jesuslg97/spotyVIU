@@ -17,8 +17,8 @@ export class ProgramingComponent implements OnInit {
     this.programacion = [
       new Programacion('Angular',
         [ 
-          new Video('Introduccion a Angular','Javi ','https://cdn.pixabay.com/vimeo/268112389/Calle%20-%2015979.mp4?width=1280&expiry=1659292730&hash=ac0721c5a9ca227574797f72eb73d922cfd2dc5b'),
-          new Video('Desarollando una app en Angular','Gustavo','https://cdn.pixabay.com/vimeo/645084454/Industrial%20-%2095462.mp4?width=1280&expiry=1659292743&hash=f646052843a1685a9c3fe79164fc261c6e6e1d85'),
+          new Video('Introduccion a Angular','Javi ','../../assets/videos/campo.mp4'),
+          new Video('Desarollando una app en Angular','Gustavo','../../assets/videos/edimburgo.mp4'),
         
         ]
       )
